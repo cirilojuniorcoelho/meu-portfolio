@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.hierarquia {
+    text-align: center;
+    margin-top: -60px;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 16px;
+}
+
+h4 {
+    margin-top: -20px;
+}
+
+
+.circulo {
+    position: relative;
+    color: #fff;
+    border-radius: 100%;
+    width: 150px; /* largura do elemento pai */
+    height: 300px; /* altura do elemento pai */
+    margin: 0 auto; /* centralizar horizontalmente */
+}
+
+.img {
+    position: absolute;
+    top: 50%; /* centralizar verticalmente */
+    left: 50%; /* centralizar horizontalmente */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid rgb(100, 26, 26);
+}
+
+
+.li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.li:hover {
+    color: black;
+    background-color: #a94118;
+    border-radius: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.ul {
+    background-color: rgb(78, 76, 76);
+    padding: 10px;
+    margin: -8px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+.Titulo1 {
+    color:darkcyan;
+    font-size: 28px;
+}
+
+.Titulo2 {
+    margin-top: -32px;
+    font-size: 18px;
+}
+
+.Titulo3 {
+    color: darkcyan;
+}
+
+.Titulo4 {
+    color: darkcyan;
+}
+
+.Titulo5 {
+    color: darkcyan;
+}
+
+.redes ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.redes ul a {
+    display: block;
+    padding: 10px;
+}
+
+.redes ul li a img {
+    max-width: 40px;
+}
+
+.mail{
+    text-align: center;
+    margin-top: 23px;
+    color: rgb(201, 21, 48);
+    font-size: 20px;
+}
+
+.men{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(201, 21, 48);
+    font-size: 20px;
+}
+
+.email{
+    margin-top: -80px;
+    margin-left: 536px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.mensagem{
+    margin-left: 413px;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.title{
+    text-align: center;
+    color: #807d6e;
+    font-size: 25px;
+}
+
+.redes1 ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.redes1 ul a {
+    display: block;
+    padding: 10px;
+}
+
+.redes1 ul li a img {
+    max-width: 40px;
+}
+
+.ul1 {
+    background-color: rgb(78, 76, 76);
+    margin: -8px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: rgb(201, 21, 48);
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color:rgb(201, 21, 48);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(126, 10, 28);
+  }
+
+  .formsd{
+    margin-top: -150px;
+  }
+
+  .forms{
+    color: tan;
+  }
+
+  .Projeto1{
+    text-align: center;
+    color:tan;
+    font-size: 30px;
+    padding-top: 25px;
+  }
